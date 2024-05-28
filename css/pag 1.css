@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(233, 223, 223);
+}
+#navelist{
+    /* remov dots from ul */
+    list-style-type: none;
+    /* make oll the li in the same  */
+    display: flex;
+    /* add space frome the eliments  */
+    justify-content: space-around; 
+    /* create one row */
+    flex-direction: row;
+     /* make all hte items in center */
+    align-items: center;
+
+}
+.logo{
+   border-radius: 1000px;
+}
+.botons{
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: aqua;
+}
+.botons:hover{
+    background-color: blueviolet;
+}
